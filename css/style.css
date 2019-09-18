@@ -67,7 +67,7 @@ a {
 
 body {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   color: #777777; }
@@ -151,7 +151,7 @@ button:focus {
     margin: 0px;
     letter-spacing: 1px; }
   .main_title h1 {
-    font-size: 48px;
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 20px; }
     @media (max-width: 1199px) {
@@ -728,7 +728,7 @@ button:focus {
 .cta-area {
   background: url(../img/cta-bg.png) center no-repeat;
   background-size: cover;
-  color: #000000;
+  color: #ffffff;
   position: relative;
   margin-top: 25px;
   margin-bottom: 40px; }
@@ -737,12 +737,12 @@ button:focus {
       margin-top: 0px;
       margin-bottom: 0px; } }
   .cta-area h1 {
-    font-size: 48px;
-    color: #000000;
+    font-size: 50px;
+    color: #ffffff;
     margin-bottom: 20px; }
     @media (max-width: 1199px) {
       .cta-area h1 {
-        font-size: 36px; } }
+        font-size: 35px; } }
   .cta-area .primary-btn {
     margin-top: 15px;
     background: #000000;
@@ -753,7 +753,7 @@ button:focus {
     letter-spacing: 2px; }
     .cta-area .primary-btn:hover {
       background: transparent;
-      color: #000000; }
+      color: #f9f9ff; }
   .cta-area .cta-img {
     position: absolute;
     top: -58%; }
@@ -1034,7 +1034,8 @@ button:focus {
     .testimonials-area .owl-thumb-item:last-child {
       margin-right: 0; }
     .testimonials-area .owl-thumb-item.active .overlay-grad {
-      border: 2px solid #ff2f8b; }
+      border: 2px solid #FF1493
+    ; }
     .testimonials-area .owl-thumb-item .overlay-grad {
       border: 2px solid transparent;
       border-radius: 50%;
@@ -1044,7 +1045,10 @@ button:focus {
       transition: all 0.3s ease 0s;
       cursor: pointer; }
       .testimonials-area .owl-thumb-item .overlay-grad:hover {
-        border: 2px solid #ff2f8b; }
+        border: 2px solid #FF1493; }
+      .testes-img {
+        width: 100px; height: 100px;
+      }
 
 .testi-slider {
   margin: auto; }
@@ -3103,7 +3107,8 @@ h6 {
 /*----------------------------------------------------*/
 /*============== footer-area css ===============*/
 .footer-area {
-  background-color: #04091e; }
+  background-color: #04091e; 
+  }
   .footer-area h5 {
     color: #fff;
     margin-bottom: 25px;
@@ -3111,7 +3116,7 @@ h6 {
     font-weight: 700; }
   .footer-area .footer_top {
     padding-bottom: 80px; }
-    @media (max-width: 991px) {
+    @media (max-width: 1200px) {
       .footer-area .footer_top {
         padding-bottom: 40px; } }
 
